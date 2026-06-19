@@ -8,7 +8,7 @@ computation system built with two complementary approaches:
 - **Multi-Party Computation (MPC)** for collaborative computation where multiple
   parties jointly compute results without revealing their raw inputs.
 
-The implementation is split into two private submodule repositories:
+The implementation is split into two submodule repositories:
 
 - [`fhe/`](fhe): FHE compute system, including the FHE server and Data Owner app.
 - [`mpc/`](mpc): MPC system, including the MP-SPDZ-backed web workflow.
@@ -81,8 +81,7 @@ fhe-mpc-privacy-preserving-computation/
 
 ## Clone
 
-Because this project uses private submodules, clone with submodules after
-authenticating to GitHub:
+Because this project uses submodules, clone with submodules:
 
 ```bash
 git clone --recurse-submodules https://github.com/LCD-UCCS/fhe-mpc-privacy-preserving-computation.git
