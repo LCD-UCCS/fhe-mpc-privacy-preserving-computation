@@ -160,6 +160,16 @@ MPC computation requires MP-SPDZ binaries such as `semi-party.x`; see
 - [`mpc/README.md`](mpc/README.md): MPC setup, MP-SPDZ requirements, session
   workflow, and supported computations.
 
+## Extending the System (developers)
+
+New computations are added as **trusted developer extensions compiled into the system —
+not arbitrary user-uploaded scripts executed from the web UI.** Adding a method requires
+source changes and a rebuild (and a database migration on the FHE side); the web UIs only
+offer methods a developer has already registered.
+
+- FHE / TFHE path: [`fhe/server/docs/ADDING_COMPUTATIONS.md`](fhe/server/docs/ADDING_COMPUTATIONS.md)
+- MPC path: [`mpc/docs/ADDING_MPC_COMPUTATIONS.md`](mpc/docs/ADDING_MPC_COMPUTATIONS.md)
+
 ## Security Notes
 
 - Do not commit generated `.env` files, JWT keys, TLS private keys, encrypted
