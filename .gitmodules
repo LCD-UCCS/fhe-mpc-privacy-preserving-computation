@@ -1,0 +1,6 @@
+[submodule "fhe"]
+	path = fhe
+	url = https://github.com/LCD-UCCS/fhe-compute-system.git
+[submodule "mpc"]
+	path = mpc
+	url = https://github.com/LCD-UCCS/multi-party-compute-system.git
