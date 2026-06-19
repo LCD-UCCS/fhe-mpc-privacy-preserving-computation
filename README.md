@@ -4,7 +4,7 @@ This repository is the top-level entry point for a privacy-preserving
 computation system built with two complementary approaches:
 
 - **Fully Homomorphic Encryption (FHE)** for outsourced computation on encrypted
-  datasets using a central server and a local data-owner application.
+  datasets using a semi-trusted central server and a local data-owner application.
 - **Multi-Party Computation (MPC)** for collaborative computation where multiple
   parties jointly compute results without revealing their raw inputs.
 
