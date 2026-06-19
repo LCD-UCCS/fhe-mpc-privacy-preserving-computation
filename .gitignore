@@ -1,0 +1,8 @@
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Do not vendor submodule working trees as normal files.
+fhe/
+mpc/
