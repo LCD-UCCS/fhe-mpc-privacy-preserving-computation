@@ -179,17 +179,3 @@ offer methods a developer has already registered.
   DataOwner backend must trust `FHELocalCA.pem` for local testing.
 - MPC session token protection can be enabled for LAN or production-like
   demonstrations; see the MPC README.
-
-## Paper And Demo Materials
-
-This codebase accompanies the paper:
-
-**A Software System for FHE- and MPC-based Privacy-Preserving Computation:
-Design, Analysis, and Implementation**
-
-Suggested project materials to add here:
-
-- Paper PDF or publication link.
-- Demo video links.
-- Setup screenshots.
-- Reproducible demo dataset snapshot.
